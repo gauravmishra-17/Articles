@@ -11,5 +11,7 @@ This flutter application helps to add a title and description to an image, and d
 5. I have to still work on making the UI better.
 6. I have to work on overflowing of the pixels.
 7. I have to add comments in my code.
-8. I experienced a very unusal error where it said that # No matching client found for package name 'com.example.articles'- it was because I had accidentally uploaded the json file of another project, and did not realise it till very late.
+8. I experienced a very unusal error where it said that-----
+  #           No matching client found for package name 'com.example.articles'-
+   -----it was because I had accidentally uploaded the json file of another project, and did not realise it till very late.
 
