@@ -1,22 +1,23 @@
 import 'package:articles_/models/article.dart';
-import 'package:articles_/services/database.dart';
 import 'package:flutter/material.dart';
 
 class ArticleCard extends StatelessWidget {
   final Article card;
-
+//article passed as parameter to the constructor
   ArticleCard({this.card});
 
   @override
   Widget build(BuildContext context) {
-    final DatabaseService _data = DatabaseService();
     return Card(
       margin: EdgeInsets.fromLTRB(20, 6, 20, 0),
       child: Row(
         children: <Widget>[
           Column(children: <Widget>[
+            //displaying the title
             Text(card.title),
+            //displaying the description
             Text(card.description),
+            //displaying the image
             Container(
               child: Image(
                 height: 50,

@@ -8,24 +8,29 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        //title describing the contents of the body
         title: Text("Articles"),
       ),
       body: Center(
         child: Column(
+          //contains the widgets that will be displayed in the body
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
+            //a clickable button which on pressing navigates to and builds a widget on the stack
             RaisedButton(
               child: Text("Add Articles"),
               color: Colors.grey,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20)),
               onPressed: () {
+                //Navigation from the current widget to the designated widget passed as parameter in the function for MaterialPageRoute() widget
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => AddArticles()),
                 );
               },
             ),
+            //This widegt returns a list of articles that have been uploaded to the Firebase
             Expanded(child: Articles()),
           ],
         ),
