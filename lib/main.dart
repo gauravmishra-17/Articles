@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Articles',
-
+      debugShowCheckedModeBanner: false,
       //instance of a class which first displays the widget when the app builds.
       home: MyHomePage(),
     );
