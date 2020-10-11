@@ -1,17 +1,17 @@
 # articles_
 
-A new Flutter project.
+This flutter application helps to add a title and description to an image, and displays all the images added. Images can be uploaded just by giving image url as an input.
 
-## Getting Started
+# Points to Note-
 
-This project is a starting point for a Flutter application.
+1. I have used Firebase and Firestore for the uploading to, storing and fetching back the data.
+2. I have used Provider package for the purpose of state managemnet of the Collection constructed in Firestore for realtime and smooth display of the added data.
+3. I have used models to make a custom object of the data field receive from Firestore, hence using only using the three (title, description and imageUrl) properties that I wanted.
+4. I have implemented the concept of OOPs to made the code more readable.
+5. I have to still work on making the UI better.
+6. I have to work on overflowing of the pixels.
+7. I have to add comments in my code.
+8. I experienced a very unusal error where it said that-----
+  #           No matching client found for package name 'com.example.articles'-
+   -----it was because I had accidentally uploaded the json file of another project, and did not realise it till very late.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Articles
