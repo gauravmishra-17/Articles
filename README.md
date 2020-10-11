@@ -15,3 +15,7 @@ This flutter application helps to add a title and description to an image, and d
   #           No matching client found for package name 'com.example.articles'-
    -----it was because I had accidentally uploaded the json file of another project, and did not realise it till very late.
 
+
+
+Video of my app-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/32004692/95677431-24ee2280-0be3-11eb-93b2-b4c895602df9.gif)
